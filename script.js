@@ -25,7 +25,7 @@ const sendData = (data) => {
             console.log(result)
         })
         .catch(error => {
-            console.error(error)
+            console.log(error)
         })
 }
 
